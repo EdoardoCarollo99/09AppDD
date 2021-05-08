@@ -1,0 +1,21 @@
+<body class="bg-image imgHome">
+    <div class="container">
+        <form action="Index" method="get">
+            <div class="card text-white bg-dark mb-3 position-absolute top-50 start-50 translate-middle" style="min-width: 25rem; min-height: 10rem;">
+                <div class="card-header text-center ">MODIIFICA PERSONAGGIO</div>
+                <div class="card-body">
+                    <input type="hidden" name="cmd" value="salvamodificapersonaggio">
+                    <input type="hidden" name="id" value="[ID]">
+                    <p class="card-text text-center"><input type="text" placeholder="[NOME]" required name="nome"></p>
+                    <p class="card-text text-center"><input type="text" placeholder="[RAZZA]" required name="razza"></p>
+                    <p class="card-text text-center"><input type="text" placeholder="[CLASSE]" required name="classe"></p>
+                    <p class="card-text text-center"><input type="number" placeholder="[LIVELLO]" required name="livello"></p>
+                    <p class="card-text text-center"><input type="number" placeholder="[MONETE]" step="50" required name="monete" ></p>
+                    <p class="card-text text-center">
+                        <button class="btn btn-secondary"> MODIFICA </button>
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>

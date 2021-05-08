@@ -1,0 +1,43 @@
+<body class='bg-image imgHome'>
+<form action="Index" method="get">
+    <input type="hidden" name="cmd" value="associazione">
+    <div class="container">
+        <div class="row" style="padding-top: 80px;">
+            <div class="col-sm-4" style="padding-bottom: 30px;">
+                <div class="card" style="padding: 30px;">
+                    <div class="card-body">
+                        <h5 class="card-title"><img src='https://upload.wikimedia.org/wikipedia/en/8/8e/Dungeons_%26_Dragons_5th_Edition_logo.svg' alt='Dungeons' style='width: 250px;'></h5>
+                        <h5 class="card-title fs-2"><strong>Nome Personaggio</strong></h5>
+                        <select name="id_personaggio" class="form-select" aria-label="Default select example">
+                            <option selected>Nome Personaggio</option>
+                            [OPTIONPERSONAGGI]
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4" style="padding-bottom: 30px;">
+                <div class="card" style="padding: 30px;">
+                    <div class="card-body">
+                        <h5 class="card-title fs-2"><strong>Nome Items</strong></h5>
+                        <select name="id_item" class="form-select" aria-label="Default select example">
+
+                            <option selected>Nome Items</option>
+                            [OPTIONITEMS]
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4" style="padding-bottom: 30px;">
+                <div class="card" style="padding: 30px;">
+                    <div class="card-body">
+                        <h5 class="card-title fs-1"><strong>Quantità</strong></h5>
+                        <input type='number' class='form-control' name='qty' i d='qty'placeholder="Inserire Quantità..." required>
+                        <br>
+                        <button class='btn btn-primary'>Assegna</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+</body>

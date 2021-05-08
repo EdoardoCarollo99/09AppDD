@@ -1,0 +1,22 @@
+
+<li scope='row'>Nome</li>
+<p>[NOME]</p>
+<li>Tipologia</li>
+<p>[TIPOLOGIA]</p>
+<li>Descrizione</li>
+<p>[DESCRIZIONE]</p>
+<li>Quantità</li>
+<p>[QTY]</p>
+<a href='Index?cmd=eliminaassegnazione&id=[&IDPERSONAGGIO]&id_item=[&IDITEM]' class='btn btn-outline-danger'>Elimina Assegnazione</a>
+
+<p>
+
+<form action="Index" method="get">
+    <input type='hidden' name='cmd' value='modifica_qty'>
+    <input type='hidden' name='id' value='[&IDPERSONAGGIO]'>
+    <input type='hidden' name='id_item' value='[&IDITEM]'>
+    <input type='number' name='quantita' class='form-control' placeholder="Inserire Quantità..." required>
+    <button type="submit" class="btn btn-outline-success">Cambia quantità</button>
+</form>
+
+</p>

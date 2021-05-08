@@ -1,0 +1,20 @@
+<body class="bg-image imgHome">
+  <div class="container">
+    <form action="Index" method="get">
+      <div class="card text-white bg-dark mb-3 position-absolute top-50 start-50 translate-middle" style="min-width: 25rem; min-height: 10rem;">
+        <div class="card-header text-center ">AGGIUNGI ITEMS</div>
+        <div class="card-body">
+          <input type="hidden" name="cmd" value="aggiungi_item">
+          <p class="card-text text-center"><input type="text" placeholder="Nome item" required name="nome"></p>
+          <p class="card-text text-center"><input type="text" placeholder="Tipologia item" required name="tipologia"></p>
+          <p class="card-text text-center">
+            <textarea name="descrizione" id="" cols="23" rows="2" placeholder="Descrizione Item" required></textarea>
+          </p>
+          <p class="card-text text-center">
+            <button class="btn btn-secondary"> AGGIUNGI </button>
+          </p>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
